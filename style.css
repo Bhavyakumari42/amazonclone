@@ -10,6 +10,25 @@ body{
     overflow-x: hidden;
    
 }
+.blackcontainer
+{
+ width: 100vw;
+ height: 100vh;
+ z-index: 150;
+ background-color: black;
+ opacity: 40%;
+ position: absolute;
+ bottom:0vh;
+ 
+ display: none;
+}
+.navbar-address .border
+{
+    display: flex;
+}
+.blackcontainer.black{
+    display: block;
+}
 .navbar
 {
     background-color: #0F1111;
@@ -67,6 +86,99 @@ body{
     position: relative;
     left: .25rem;
     top: .6rem;
+}
+.deliverdropdown
+{
+    display: flex;
+    position: absolute;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: white;
+    flex-direction: column;
+    top: 40vh;
+    left: 38vw;
+    width: 26vw;
+    z-index: 200;
+    border-radius: 10px;
+    display: none;
+}
+.scroll-black{
+    height: 100%;
+    overflow: hidden;
+}
+.chooselocation
+{
+    background-color: rgb(234, 234, 234);
+    padding: 1.3vw;
+    font-size: 16px;
+    font-weight: bold;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.pincodebox p
+{
+    font-size: 12px;
+    margin: 2.5vh 0 0 1.4vw;
+    letter-spacing: .2px;
+    color: #666666;
+    font-weight: bold;
+    line-height: 2.8vh;
+}
+.pincodebox button{
+    margin: 1vh  0 0 1.4vw;
+    background-color: #FFD814;
+    border : none;
+    padding: 1vh;
+    width: 89%;
+    border-radius: 8px;
+}
+.pincodebox button:hover
+{
+    background-color: #f8ce00;
+}
+
+.sigincontainer 
+{
+    display: flex;
+    flex-direction: row;
+}
+.sigincontainer hr{
+ 
+    width: 23%;
+    font-weight: lighter;
+    height: 0;
+    
+
+}
+.sigincontainer p{
+    margin: 1.8vh 0vw 1.8vh 6px;
+}
+#left
+{
+    margin: 3vh 0 1vh 1.4vw;
+
+}
+#right
+{
+    margin: 3vh 1.5vw 1vh 0.3vw;
+    
+}
+.input1
+{
+    margin: 0 0.8vw 2vh 1.4vw;
+    width: 16vw;
+    height: 5vh;
+}
+.input2
+{
+    margin: 0 1.4vw 2vh 0vw;
+    height: 5vh;
+    background-color: white;
+    border: 1px solid rgb(227, 227, 227);
+    width: 6vw;
+}
+.input2:hover{
+    background-color: rgb(222, 222, 222);
 }
 /* box3 */
 .search-logo

@@ -8,19 +8,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    
     <header>
         <!-- box1 -->
         <div class="navbar">
             <div class="navbar-logo border"></div>
            <!-- box2 -->
-                <div class="navbar-address border ">
-                    <p class = " first">Deliver to</p>
+                <div class="navbar-address border">
+                    <p class = "first">Deliver to</p>
                     <div class="navbar-address-logo">
                         <i class="fa-solid fa-location-dot"></i>
                     </div>
-                    <p class = " second">India</p>
+                    <p class = "second">India</p>
                 </div>
-           
+           <div class="deliverdropdown">
+            <div class="chooselocation">Choose your location</div>
+            <div class="pincodebox">
+                <p>Select a delivery location to see product availability and delivery options</p>
+                <button>Sign in to see your address</button>
+                <div class="sigincontainer">
+                    <hr id = "left">
+                    <p>or enter an Indian pincode</p>
+                    <hr id = "right">
+
+                </div>
+                <input type="number" class = "input1">
+                <input type="submit" value = "Apply" class = "input2">
+            </div>
+           </div>
       <!--box3  -->
       <div class="navbar-search">
         <select  >
@@ -215,6 +230,7 @@
         <div class="last">© 1996-2023, Amazon.com, Inc. or its affiliates
         </div>
     </footer>
+    <div class="blackcontainer"></div>
     <script src="script.js"></script>
 </body>
 </html>
